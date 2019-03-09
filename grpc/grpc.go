@@ -3,9 +3,9 @@ package grpc
 import (
 	"context"
 	"fmt"
-	"gitee.com/NotOnlyBooks/statistical_report/conf"
-	"gitee.com/NotOnlyBooks/statistical_report/grpc/server"
-	"gitee.com/NotOnlyBooks/statistical_report/protos/statistical"
+	"github.com/Saburo90/statistical_report/conf"
+	"github.com/Saburo90/statistical_report/grpc/server"
+	"github.com/Saburo90/statistical_report/protos/statistical"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"net"

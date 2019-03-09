@@ -1,8 +1,8 @@
 package server
 
 import (
-	"gitee.com/NotOnlyBooks/statistical_report/conf"
-	"gitee.com/NotOnlyBooks/statistical_report/router"
+	"github.com/Saburo90/statistical_report/conf"
+	"github.com/Saburo90/statistical_report/router"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"net/http"

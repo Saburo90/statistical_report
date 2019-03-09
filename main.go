@@ -1,8 +1,8 @@
 package main
 
 import (
-	_ "gitee.com/NotOnlyBooks/statistical_report/docs"
-	"gitee.com/NotOnlyBooks/statistical_report/server"
+	_ "github.com/Saburo90/statistical_report/docs"
+	"github.com/Saburo90/statistical_report/server"
 )
 
 // @title 统计报表API

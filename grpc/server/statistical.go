@@ -2,10 +2,10 @@ package server
 
 import (
 	"context"
-	"gitee.com/NotOnlyBooks/statistical_report/components"
-	"gitee.com/NotOnlyBooks/statistical_report/constant"
-	"gitee.com/NotOnlyBooks/statistical_report/models/users_model"
-	"gitee.com/NotOnlyBooks/statistical_report/protos/statistical"
+	"github.com/Saburo90/statistical_report/components"
+	"github.com/Saburo90/statistical_report/constant"
+	"github.com/Saburo90/statistical_report/models/users_model"
+	"github.com/Saburo90/statistical_report/protos/statistical"
 	"time"
 )
 

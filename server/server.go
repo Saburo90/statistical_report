@@ -1,11 +1,11 @@
 package server
 
 import (
-	"gitee.com/NotOnlyBooks/statistical_report/components"
-	"gitee.com/NotOnlyBooks/statistical_report/components/grpccli"
-	"gitee.com/NotOnlyBooks/statistical_report/conf"
-	"gitee.com/NotOnlyBooks/statistical_report/grpc"
-	"gitee.com/NotOnlyBooks/statistical_report/timed"
+	"github.com/Saburo90/statistical_report/components"
+	"github.com/Saburo90/statistical_report/components/grpccli"
+	"github.com/Saburo90/statistical_report/conf"
+	"github.com/Saburo90/statistical_report/grpc"
+	"github.com/Saburo90/statistical_report/timed"
 	"go.uber.org/zap"
 	"log"
 	"os"

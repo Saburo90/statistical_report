@@ -2,7 +2,7 @@ package grpccli
 
 import (
 	"fmt"
-	"gitee.com/NotOnlyBooks/statistical_report/conf"
+	"github.com/Saburo90/statistical_report/conf"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"strconv"

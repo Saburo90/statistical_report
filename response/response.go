@@ -1,7 +1,7 @@
 package response
 
 import (
-	"gitee.com/NotOnlyBooks/statistical_report/exception"
+	"github.com/Saburo90/statistical_report/exception"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

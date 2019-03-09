@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"crypto/md5"
 	"encoding/hex"
-	"gitee.com/NotOnlyBooks/statistical_report/constant"
+	"github.com/Saburo90/statistical_report/constant"
 	"sort"
 	"strings"
 )

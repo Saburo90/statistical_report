@@ -1,9 +1,9 @@
 package timed
 
 //import (
-//	"gitee.com/NotOnlyBooks/statistical_report/components"
-//	"gitee.com/NotOnlyBooks/statistical_report/components/grpccli"
-//	"gitee.com/NotOnlyBooks/statistical_report/conf"
+//	"github.com/Saburo90/statistical_report/components"
+//	"github.com/Saburo90/statistical_report/components/grpccli"
+//	"github.com/Saburo90/statistical_report/conf"
 //	"testing"
 //)
 //

@@ -2,7 +2,7 @@ package users_model
 
 import (
 	"fmt"
-	"gitee.com/NotOnlyBooks/statistical_report/components"
+	"github.com/Saburo90/statistical_report/components"
 	"github.com/xormplus/xorm"
 	"time"
 )

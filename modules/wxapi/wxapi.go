@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"gitee.com/NotOnlyBooks/statistical_report/conf"
-	"gitee.com/NotOnlyBooks/statistical_report/protocol"
+	"github.com/Saburo90/statistical_report/conf"
+	"github.com/Saburo90/statistical_report/protocol"
 	"net/http"
 	"strconv"
 )

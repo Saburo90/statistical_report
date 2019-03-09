@@ -2,11 +2,11 @@ package timed
 
 import (
 	"fmt"
-	"gitee.com/NotOnlyBooks/statistical_report/components"
-	"gitee.com/NotOnlyBooks/statistical_report/constant"
-	"gitee.com/NotOnlyBooks/statistical_report/models/sales_model"
-	"gitee.com/NotOnlyBooks/statistical_report/models/statis_model"
-	"gitee.com/NotOnlyBooks/statistical_report/models/users_model"
+	"github.com/Saburo90/statistical_report/components"
+	"github.com/Saburo90/statistical_report/constant"
+	"github.com/Saburo90/statistical_report/models/sales_model"
+	"github.com/Saburo90/statistical_report/models/statis_model"
+	"github.com/Saburo90/statistical_report/models/users_model"
 	"github.com/go-redis/redis"
 	"github.com/shopspring/decimal"
 	"go.uber.org/zap"

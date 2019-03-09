@@ -1,11 +1,11 @@
 package mini_statis
 
 import (
-	"gitee.com/NotOnlyBooks/statistical_report/exception"
-	"gitee.com/NotOnlyBooks/statistical_report/handler/mini_statis/interior"
-	"gitee.com/NotOnlyBooks/statistical_report/protocol"
-	"gitee.com/NotOnlyBooks/statistical_report/request"
-	"gitee.com/NotOnlyBooks/statistical_report/response"
+	"github.com/Saburo90/statistical_report/exception"
+	"github.com/Saburo90/statistical_report/handler/mini_statis/interior"
+	"github.com/Saburo90/statistical_report/protocol"
+	"github.com/Saburo90/statistical_report/request"
+	"github.com/Saburo90/statistical_report/response"
 	"github.com/gin-gonic/gin"
 	"github.com/go-ozzo/ozzo-validation"
 	"go.uber.org/zap"

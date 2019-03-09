@@ -1,12 +1,12 @@
 package timed
 
 import (
-	"gitee.com/NotOnlyBooks/statistical_report/components"
-	"gitee.com/NotOnlyBooks/statistical_report/constant"
-	"gitee.com/NotOnlyBooks/statistical_report/models/arrival_model"
-	"gitee.com/NotOnlyBooks/statistical_report/models/users_model"
-	"gitee.com/NotOnlyBooks/statistical_report/modules/wxapi"
-	"gitee.com/NotOnlyBooks/statistical_report/protocol"
+	"github.com/Saburo90/statistical_report/components"
+	"github.com/Saburo90/statistical_report/constant"
+	"github.com/Saburo90/statistical_report/models/arrival_model"
+	"github.com/Saburo90/statistical_report/models/users_model"
+	"github.com/Saburo90/statistical_report/modules/wxapi"
+	"github.com/Saburo90/statistical_report/protocol"
 	"go.uber.org/zap"
 	"time"
 )

@@ -3,7 +3,7 @@ package components
 import (
 	"errors"
 	"fmt"
-	"gitee.com/NotOnlyBooks/statistical_report/conf"
+	"github.com/Saburo90/statistical_report/conf"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/xormplus/core"
 	"github.com/xormplus/xorm"

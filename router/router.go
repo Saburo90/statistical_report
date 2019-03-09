@@ -1,10 +1,10 @@
 package router
 
 import (
-	"gitee.com/NotOnlyBooks/statistical_report/handler/mini_statis"
-	"gitee.com/NotOnlyBooks/statistical_report/handler/recycle_statis"
-	"gitee.com/NotOnlyBooks/statistical_report/handler/sale_statis"
-	"gitee.com/NotOnlyBooks/statistical_report/handler/user_statis"
+	"github.com/Saburo90/statistical_report/handler/mini_statis"
+	"github.com/Saburo90/statistical_report/handler/recycle_statis"
+	"github.com/Saburo90/statistical_report/handler/sale_statis"
+	"github.com/Saburo90/statistical_report/handler/user_statis"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/swaggo/gin-swagger"

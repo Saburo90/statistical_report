@@ -1,9 +1,9 @@
 package hanging
 
 import (
-	"gitee.com/NotOnlyBooks/statistical_report/components"
-	"gitee.com/NotOnlyBooks/statistical_report/constant"
-	"gitee.com/NotOnlyBooks/statistical_report/models/goods_model"
+	"github.com/Saburo90/statistical_report/components"
+	"github.com/Saburo90/statistical_report/constant"
+	"github.com/Saburo90/statistical_report/models/goods_model"
 	"github.com/Luxurioust/excelize"
 	"go.uber.org/zap"
 	"strconv"

@@ -2,7 +2,7 @@ package request
 
 import (
 	"encoding/json"
-	"gitee.com/NotOnlyBooks/statistical_report/exception"
+	"github.com/Saburo90/statistical_report/exception"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"io"
