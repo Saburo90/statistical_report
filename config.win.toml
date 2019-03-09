@@ -1,0 +1,44 @@
+title = "统计报表API本地配置文件"
+debug = true
+# 服务
+[server]
+addr = "0.0.0.0:8889"
+certFile = ""
+keyFile = ""
+ip = "127.0.0.1"
+# 数据库
+[db]
+debug = true
+[db.connects]
+master = "root:root@tcp(127.0.0.1:3306)/mangyoujing?charset=utf8&parseTime=true&loc=Local"
+[grpc_cli.mitoken]
+addr = "47.93.242.218"
+port = 9000
+[grpc_service]
+addr = ":9002"
+# ES
+[es]
+addr = "http://127.0.0.1:9200"
+# Redis
+[redis]
+network = "tcp"
+addr = "127.0.0.1:6379"
+# wxapi
+[wxapi]
+get_applets_access_token = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=%s&secret=%s"
+get_applets_users_summary = "https://api.weixin.qq.com/datacube/getusersummary?access_token=%s"
+get_applets_users_cumulate = "https://api.weixin.qq.com/datacube/getusercumulate?access_token=%s"
+get_analysis_visit_page = "https://api.weixin.qq.com/datacube/getweanalysisappidvisitpage?access_token=%s"
+get_analysis_daliy_summary = "https://api.weixin.qq.com/datacube/getweanalysisappiddailysummarytrend?access_token=%s"
+get_analysis_visit_trend = "https://api.weixin.qq.com/datacube/getweanalysisappiddailyvisittrend?access_token=%s"
+get_applets_user_info = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=%s&openid=%s&lang=zh_CN"
+get_applets_users_infos = "https://api.weixin.qq.com/cgi-bin/user/info/batchget?access_token=%s"
+# wxsecret
+[wxsecret]
+roam_applets_appId = "wxf3aa274ee72554ac"
+roam_applets_appSecret = "815bef1064cc7f9b4836b2990e032e40"
+share_applets_appId = "wx5958b1ff72eeddd2"
+share_applets_appSecret = "f7791184c398dd7099c9c70135dd39fa"
+# phpapi
+[phpapi]
+supply_applets_access_token = "http://backend.manyoujing.net/app/ewei_shopv2_api.php?i=21&r=public.supplyAccessToken&applets_uniacid=%s"

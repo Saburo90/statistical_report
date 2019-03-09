@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package pb.accessToken;
+
+service AccessToken {
+    rpc GetAccessToken (GetAccessTokenReq) returns (GetAccessTokenResp) {
+    }
+}
+
+message GetAccessTokenReq {
+    string name = 1;
+}
+
+message GetAccessTokenResp {
+    string token = 1;
+}

@@ -1,0 +1,74 @@
+syntax = "proto3";
+
+package daily.statistical;
+
+service Statistical {
+    rpc GetUsersOverview (GetUsersOverviewRep) returns (GetUsersOverviewResp) {
+    }
+    rpc GetWxAPIData (GetWxAPIDataReq) returns (GetWxAPIDataResp) {
+    }
+    rpc GetSalesData (GetSalesDataReq) returns (GetSalesDataResp) {
+    }
+    rpc GetRoamMiniWxAPIData (GetRoamMiniWxAPIDataReq) returns (GetRoamMiniWxAPIDataResp) {
+    }
+}
+
+message GetUsersOverviewRep {
+    int64   uniacid = 1;
+    string  openid  = 2;
+    string  openidWa = 3;
+    string  unionid = 4;
+}
+
+message GetUsersOverviewResp {
+    int64 total_platform_users = 1;
+    int64 total_roam_users = 2;
+    int64 total_roamMini_users = 3;
+    int64 total_platnew_users = 4;
+    int64 total_roamnew_users = 5;
+    int64 total_sharenew_users = 6;
+    int64 total_rapltnew_users = 7;
+    int64 total_rmininew_users = 8;
+}
+
+message GetWxAPIDataReq {
+    int64   uniacid = 1;
+}
+
+message GetWxAPIDataResp {
+    int64 yesterday_roam_tusers = 1;
+    int64 yesterday_roam_newusers = 2;
+    int64 yesterday_roam_cancelusers = 3;
+    int64 yesterday_share_tusers = 4;
+    int64 yesterday_share_newusers = 5;
+    int64 yesterday_share_cancelusers = 6;
+}
+
+message GetSalesDataReq {
+    int64   uniacid = 1;
+    string  openid  = 2;
+    string  openidWa = 3;
+    string  unionid = 4;
+}
+
+message GetSalesDataResp {
+    int64 yeterday_neworders = 1;
+    float yesterday_neword_prices = 2;
+    int64 yesterday_neword_gdtotal = 3;
+}
+
+message GetRoamMiniWxAPIDataReq {
+
+}
+
+message GetRoamMiniWxAPIDataResp {
+    int64 visit_total = 1;
+    int64 visit_pv = 2;
+    int64 visit_uv = 3;
+    int64 visit_uv_new = 4;
+    int64 stay_time_uv = 5;
+    int64 rpage_visit_pv = 6;
+    int64 rpage_visit_uv = 7;
+    int64 dpage_visit_pv = 8;
+    int64 dpage_visit_uv = 9;
+}

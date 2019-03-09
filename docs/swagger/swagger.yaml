@@ -1,0 +1,49 @@
+basePath: /statistical
+definitions:
+  protocol.OverviewReq:
+    properties:
+      clientIP:
+        type: string
+      operateTime:
+        type: integer
+      operator:
+        type: string
+      sign:
+        type: string
+    type: object
+  protocol.OverviewResp:
+    properties:
+      total_roam_users:
+        type: integer
+    type: object
+host: 39.106.39.7:8092
+info:
+  contact: {}
+  license: {}
+  title: 统计报表API
+  version: "1.0"
+paths:
+  /user/getOverview:
+    post:
+      parameters:
+      - description: 调用者,调用时间,调用者IP,签名
+        in: body
+        name: operationSign
+        required: true
+        schema:
+          $ref: '#/definitions/protocol.OverviewReq'
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"code":0,"msg":"OK","data":{}}'
+          schema:
+            $ref: '#/definitions/protocol.OverviewResp'
+            type: object
+        "400":
+          description: '{"code":exceptionCode,"msg":exceptionMsg,"data":{}}'
+      summary: 获取用户统计数据
+      tags:
+      - 用户统计
+swagger: "2.0"
