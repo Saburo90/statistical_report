@@ -1,10 +1,10 @@
 package hanging
 
 import (
+	"github.com/360EntSecGroup-Skylar/excelize"
 	"github.com/Saburo90/statistical_report/components"
 	"github.com/Saburo90/statistical_report/constant"
 	"github.com/Saburo90/statistical_report/models/goods_model"
-	"github.com/Luxurioust/excelize"
 	"go.uber.org/zap"
 	"strconv"
 )

@@ -8,7 +8,7 @@ import (
 	"net/http"
 )
 
-func run_win() error {
+func run() error {
 	if !conf.StatisC.Debug {
 		gin.SetMode(gin.ReleaseMode)
 	}
